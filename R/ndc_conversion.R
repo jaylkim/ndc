@@ -5,9 +5,9 @@
 #'   (Default: "ndcnum").
 #'
 #' @return Returns nothing. As a side effect, it creates a .dta file in the same folder.
-#' @importFrom magrittr %/%
+#' @importFrom magrittr %>%
 #' @importFrom dplyr mutate select rename if_else
-#' @importFrom rlang .data
+#' @importFrom rlang .data :=
 #' @importFrom stringr str_split str_length str_pad str_c
 #' @importFrom purrr map_chr
 #' @export

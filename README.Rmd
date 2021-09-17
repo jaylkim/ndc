@@ -1,0 +1,38 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# ndc
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This package includes a function to convert NDCs in 10-digits to 11-digits.
+
+## Installation
+
+
+``` r
+remotes::install_github("jaylkim/ndc")
+```
+
+## Example
+
+
+```{r example, eval=FALSE}
+library(ndc)
+## basic example code
+ndc_convert("path/to/file.csv")
+```
+
