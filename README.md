@@ -9,6 +9,9 @@
 This package includes a function to convert NDCs in 10-digits to
 11-digits.
 
+You can download a csv file for NDCs using the [FDA
+database](https://www.accessdata.fda.gov/scripts/cder/ndc/index.cfm).
+
 ## Installation
 
 ``` r
